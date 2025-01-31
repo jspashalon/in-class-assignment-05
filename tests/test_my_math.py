@@ -8,11 +8,16 @@ def test_sum():
 
 # Work together
 ## Test multiply
+def test_multiply():
+    res = multiply(2,2)
+    assert res == 4
 
 
 # Check for understanding
 ## Test difference
-
+def test_difference():
+    res = difference(8,4)
+    assert res == 4
 
 # Work together
 ## Test absolute sum
